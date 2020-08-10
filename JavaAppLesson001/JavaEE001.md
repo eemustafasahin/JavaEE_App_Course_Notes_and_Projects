@@ -77,7 +77,7 @@ class Util {
     }
 }
 ```
-### StringBuilder sınıfının default ctor'u capacity değerini 16'ya çeker
+# StringBuilder sınıfı
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     StringBuilder sınıfının default ctor'u capacity değerini 16'ya çeker
