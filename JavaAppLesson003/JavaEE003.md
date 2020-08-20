@@ -1,3 +1,4 @@
+###  CommandLineUtil sınıfı ve test kodu
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     CommandLineUtil sınıfı ve test kodu
@@ -46,6 +47,7 @@ class App {
     }
 }
 ```
+### Özyineleme (recursion), özyinelemeli algoritmalar ve özyinelemeli metotlar
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     Özyineleme (recursion), özyinelemeli algoritmalar ve özyinelemeli metotlar:
@@ -118,6 +120,7 @@ class App {
     belli bir noktadan sonra kendini çağırma işleminden vazgeçmesi gerekir
 ----------------------------------------------------------------------------------------------------------------------*/
 ```
+### Aşağıdaki örnekte kendi kendini çağıran metot bu işlemi sürekli yaptığından StackOverflowException oluşur
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     Aşağıdaki örnekte kendi kendini çağıran metot bu işlemi sürekli yaptığından StackOverflowException oluşur
@@ -138,6 +141,7 @@ class Sample {
     }
 }
 ```
+### Recursive metotun bir incelemesi
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     Aşağıdaki örnekte metot kendini hep bir eksik değerle çağırmıştır. Parametre değişkeni olan n sıfır değerine
@@ -170,6 +174,7 @@ class Sample {
     }
 }
 ```
+### Faktoriyel hesaplayan metodun özyinelemesiz biçimi
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     Faktoriyel hesaplayan metodun özyinelemesiz biçimi
@@ -194,6 +199,7 @@ class FactorialTest {
     }
 }
 ```
+### Faktoriyel hesaplayan metodun özyinelemeli biçimi
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     Faktoriyel hesaplayan metodun özyinelemeli biçimi
@@ -217,7 +223,8 @@ class FactorialTest {
             Console.writeLine("%d!=%d", n, RecursionUtil.factorial(n));
     }
 }
-
+```
+```java
 package org.csystem.samples.recurison;
 
 public class RecursionUtil {
@@ -258,6 +265,7 @@ class FactorialTest {
     }
 }
 ```
+### Bir yazıyı tersten yazdırma algoritmasının özyinelemesiz biçimi
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     Bir yazıyı tersten yazdırma algoritmasının özyinelemesiz biçimi
@@ -289,6 +297,7 @@ class WriteReverseTest {
     }
 }
 ```
+### Bir yazıyı tersten yazdırma algoritmasının özyinelemeli biçimi
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     Bir yazıyı tersten yazdırma algoritmasının özyinelemeli biçimi
@@ -320,6 +329,7 @@ class WriteReverseTest {
     }
 }
 ```
+### Bir yazıyı tersyüz etme yazdırma algoritmasının özyinelemeli biçimi
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     Bir yazıyı tersyüz etme yazdırma algoritmasının özyinelemeli biçimi
@@ -356,4 +366,3 @@ class GetReverseTest {
 
 ----------------------------------------------------------------------------------------------------------------------*/
 ```
-
