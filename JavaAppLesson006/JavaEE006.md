@@ -1,3 +1,4 @@
+### Exor operatörü boolean türü için de kullanılabilir. Şüphesiz herhangi bir kısa devre davranışı yoktur
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     Exor operatörü boolean türü için de kullanılabilir. Şüphesiz herhangi bir kısa devre davranışı yoktur
@@ -29,6 +30,7 @@ class Sample {
     }
 }
 ```
+### Bir değerin kendisi ile exor işlemine sokulması durumunda sıfır değeri elde edilir
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     Bir değerin kendisi ile exor işlemine sokulması durumunda sıfır değeri elde edilir
@@ -48,6 +50,7 @@ public class App {
     }
 }
 ```
+###  "Bitsel veya" (bitwise or) operatörü operatörü
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     "Bitsel veya" (bitwise or) operatörü operatörü, operatör öncelik tablosunun 10. seviyesinde iki operandlı
@@ -75,6 +78,7 @@ public class App {
     }
 }
 ```
+### bitsel veya operatörünün boolean türden operandlar ile kullanımı
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     Hatırlanacağı gibi bitsel veya operatörünün boolean türden operandlar ile kullanımı kısa devre davranışı olmayan
@@ -107,6 +111,7 @@ class Sample {
     }
 }
 ```
+###  "Bitsel değil" operatörü dışında, tüm bitsel operatörlere ilişkin işlemli atama operatörleri vardır.
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     "Bitsel değil" operatörü dışında, tüm bitsel operatörlere ilişkin işlemli atama operatörleri vardır. Bilindiği gibi
@@ -135,6 +140,7 @@ public class App {
     }
 }
 ```
+### exorswap
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     Bitsel exor operatörü kullanılarak iki tane tamsayı türden değişkenin değerleri, üçüncü bir değişken kullanmadan
@@ -165,6 +171,7 @@ public class App {
     }
 }
 ```
+### Aşağıdaki örnekte aynı değişken ile takas yapılmaya çalışılmıştır. Bu durumda değer kaybedilir
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     Aşağıdaki örnekte aynı değişken ile takas yapılmaya çalışılmıştır. Bu durumda değer kaybedilir
@@ -191,6 +198,7 @@ public class App {
     }
 }
 ```
+### Aşağıdaki örnekte reverse metotları içerisinde çağrılan swap metotları exor kullanılarak yazılmıştır
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     Aşağıdaki örnekte reverse metotları içerisinde çağrılan swap metotları exor kullanılarak yazılmıştır
@@ -212,6 +220,7 @@ public class App {
     }
 }
 ```
+###  Aşağıdaki örnekte swap metoduna aynı değişken verildiğinden değer kaybedilir. 
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     Aşağıdaki örnekte swap metoduna aynı değişken verildiğinden değer kaybedilir. İstenirse swap metodunda indeksler
@@ -233,6 +242,7 @@ public class App {
     }
 }
 ```
+### bitwise manipulation
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     Özellikle aşağı seviyeli kodlarda bir tamsayının bitleri üzerinde işlemler yapılması (bitwise manipulation)
@@ -243,6 +253,7 @@ public class App {
     her zaman geçerli değildir. Bunların kararı tamamen algoritmanıza bağlıdır.
 ----------------------------------------------------------------------------------------------------------------------*/
 ```
+### Bir tamsayının belirli bir bitinin birlenmesi:
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     Bir tamsayının belirli bir bitinin birlenmesi:
@@ -273,6 +284,7 @@ public class App {
     }
 }
 ```
+### Bir sayının belirli bitini birlemek için 1 sayısının o kadar sola kaydırılması gerekir.
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     Bir sayının belirli bitini birlemek için 1 sayısının o kadar sola kaydırılması gerekir. Yani örneğin bir n sayısının
@@ -302,6 +314,7 @@ public class App {
     }
 }
 ```
+### Bir sayının belirli bitini birlemek için 1 sayısının o kadar sola kaydırılması gerekir. 
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     Bir sayının belirli bitini birlemek için 1 sayısının o kadar sola kaydırılması gerekir. Yani örneğin bir n sayısının
@@ -329,6 +342,7 @@ public class App {
     }
 }
 ```
+### BitwiseUtil sınıfının setBit metodu
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     BitwiseUtil sınıfının setBit metodu
@@ -354,6 +368,7 @@ public class App {
     }
 }
 ```
+### Bir tamsayının belirli bir bitinin sıfırlanması:
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     Bir tamsayının belirli bir bitinin sıfırlanması:
@@ -383,6 +398,7 @@ public class App {
     }
 }
 ```
+### Aşağıdaki örnekte bir bitin sıfırlanmasına yönelik maske kullanılmıştır
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     Aşağıdaki örnekte bir bitin sıfırlanmasına yönelik maske kullanılmıştır
@@ -408,9 +424,10 @@ public class App {
     }
 }
 ```
+### BitwiseUtil sınıfının clearBit metodu
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
-    BitwiseUYtil sınıfının clearBit metodu
+    BitwiseUtil sınıfının clearBit metodu
 ----------------------------------------------------------------------------------------------------------------------*/
 package org.csystem.app;
 
@@ -433,6 +450,7 @@ public class App {
     }
 }
 ```
+### BitwiseUtil sınıfının setBit metodu
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     BitwiseUtil sınıfının setBit metodu
@@ -455,6 +473,7 @@ public class App {
     }
 }
 ```
+### Bir tamsayının belirli bir bitini değiştirmek:
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     Bir tamsayının belirli bir bitini değiştirmek:
@@ -483,6 +502,7 @@ public class App {
     }
 }
 ```
+### BitwiseUtil sınıfının toggleBit metodu
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     BitwiseUtil sınıfının toggleBit metodu
@@ -506,6 +526,7 @@ public class App {
     }
 }
 ```
+### BitwiseUtil sınıfının toggleBit metodu
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     BitwiseUtil sınıfının toggleBit metodu
@@ -529,6 +550,7 @@ public class App {
     }
 }
 ```
+### Bir tamsayının belirli bir bitinin elde edilmesi:
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     Bir tamsayının belirli bir bitinin elde edilmesi:
@@ -563,6 +585,7 @@ public class App {
     }
 }
 ```
+### BitwiseUtil sınıfının isEven metodu
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
    BitwiseUtil sınıfının isEven metodu
@@ -586,6 +609,7 @@ public class App {
     }
 }
 ```
+### BitwiseUtil sınıfının isSet metodu
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
    BitwiseUtil sınıfının isSet metodu
@@ -611,6 +635,7 @@ public class App {
     }
 }
 ```
+### BitwiseUtil sınıfının isSet metodu
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
    BitwiseUtil sınıfının isSet metodu
@@ -636,6 +661,7 @@ public class App {
     }
 }
 ```
+### Bir sayının ikinin kuvveti olup olmadığını test eden isPowerOfTwo metodunu bitsel operatörleri kullanrak yazınız
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     Soru: Bir sayının ikinin kuvveti olup olmadığını test eden isPowerOfTwo metodunu bitsel operatörleri kullanrak
@@ -665,6 +691,7 @@ public class App {
     }
 }
 ```
+### BitwiseUtil sınıfının writeBits metotları
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     BitwiseUtil sınıfının writeBits metotları
@@ -689,6 +716,7 @@ public class App {
     }
 }
 ```
+### Sınıf Çalışması: Parametresi ile aldığı int türden bir değerin kaç tane bitinin 1(bir) olduğunu döndüren numberOfSetBits metodunu yazınız
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     Sınıf Çalışması: Parametresi ile aldığı int türden bir değerin kaç tane bitinin 1(bir) olduğunu döndüren
@@ -716,6 +744,7 @@ public class App {
     }
 }
 ```
+### Sınıf Çalışması: Parametresi ile aldığı int türden bir değerin kaç tane bitinin 1(bir) olduğunu döndüren numberOfSetBits metodunu yazınız
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     Sınıf Çalışması: Parametresi ile aldığı int türden bir değerin kaç tane bitinin 1(bir) olduğunu döndüren
@@ -743,6 +772,7 @@ public class App {
     }
 }
 ```
+### Sınıf Çalışması: Parametresi ile aldığı int türden bir sayının bitlerini String olarak döndüren toBitsString isimli metodu yazınız
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     Sınıf Çalışması: Parametresi ile aldığı int türden bir sayının bitlerini String olarak döndüren toBitsString
@@ -775,6 +805,7 @@ class Util {
     }
 }
 ```
+### Sınıf Çalışması: Parametresi ile aldığı int türden bir sayının bitlerini String olarak döndüren toBitsString isimli metodu yazınız
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     Sınıf Çalışması: Parametresi ile aldığı int türden bir sayının bitlerini String olarak döndüren toBitsString
@@ -807,6 +838,7 @@ class Util {
     }
 }
 ```
+### Sınıf Çalışması: Parametresi ile aldığı int türden bir değerin 1(bir) olan bitlerinin index numaraların bir dizi olarak döndüren indicesOfSetBits metodunu yazınız
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     Sınıf Çalışması: Parametresi ile aldığı int türden bir değerin 1(bir) olan bitlerinin index numaralarını
@@ -829,6 +861,7 @@ public class App {
     }
 }
 ```
+### BitwiseUtil sınıfı
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     BitwiseUtil sınıfı
@@ -1135,6 +1168,7 @@ public class BitwiseUtil {
     }
 }
 ```
+### Deprecated! Date sınıfı
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     Java 1.0 ile eklenmiş ancak çok problemli olduğu için bir çok metodunun deprecated olduğu, bir Java
@@ -1162,6 +1196,7 @@ class App {
     }
 }
 ```
+###  Calendar sınıfı ile sistemin o anki tarih-zaman bilgisinin elde edilmesi
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     Calendar sınıfı ile sistemin o anki tarih-zaman bilgisinin elde edilmesi
@@ -1188,6 +1223,7 @@ class App {
     }
 }
 ```
+### Calendar sınıfı ile sistemin o anki tarih-zaman bilgisinin elde edilmesi
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     Calendar sınıfı ile sistemin o anki tarih-zaman bilgisinin elde edilmesi
@@ -1215,6 +1251,7 @@ class App {
     }
 }
 ```
+### Calendar sınıfı tarih-zaman bilgileri için geçerlilik kontrolü yapmaz
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     Calendar sınıfı tarih-zaman bilgileri için geçerlilik kontrolü yapmaz
@@ -1242,6 +1279,7 @@ class App {
     }
 }
 ```
+### Calendar sınıfının getTimeInMillis metodu
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     Calendar sınıfının getTimeInMillis metodu epoch time (01.01.1970 00:00:00.0) zamanından nesnenin tuttuğu zamana
@@ -1266,6 +1304,7 @@ class App {
     }
 }
 ```
+### Calendar sınıfının getTimeInMillis metodu
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     Calendar sınıfının getTimeInMillis metodu epoch time (01.01.1970 00:00:00.0) zamanından nesnenin tuttuğu zamana
@@ -1290,6 +1329,7 @@ class App {
     }
 }
 ```
+### Calendar sınıfının after ve before metotları
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     Calendar sınıfının after ve before metotları
@@ -1312,6 +1352,7 @@ class App {
     }
 }
 ```
+### Calendar sınıfı immutable bir sınıf değildir
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     Calendar sınıfı immutable bir sınıf değildir
@@ -1349,6 +1390,7 @@ class App {
     }
 }
 ```
+### Sınıf Çalışması: Doğum gününüz kutlu olsun
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     Sınıf Çalışması: Klavyeden alınan gün, ay ve yıl bilgilerine göre kişinin doğum günü geçmişse
