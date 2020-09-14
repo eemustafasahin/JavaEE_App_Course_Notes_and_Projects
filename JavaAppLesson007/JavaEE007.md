@@ -1,3 +1,4 @@
+### Sınıf Çalışması: Doğum günü kutlaması
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     Sınıf Çalışması: Klavyeden alınan gün, ay ve yıl bilgilerine göre kişinin doğum günü geçmişse
@@ -672,6 +673,7 @@ public enum Month {
     JAN, FEB, MAR, APR, MAY, JUN, JUL, AUG, SEP, OCT, NOV, DEC
 }
 ```
+### LocalDate sınıfının of metotları
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     LocalDate sınıfının of metotları
@@ -692,6 +694,7 @@ class App {
     }
 }
 ```
+### LocalDate sınıfının Month parametreli ctor elemanı
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     LocalDate sınıfının Month parametreli ctor elemanı
@@ -713,6 +716,7 @@ class App {
     }
 }
 ```
+### LocalDate sınıfı (ve tüm diğer Java 8 tarih-zaman sınıfları) geçerlilik kontrolü yapar.
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     LocalDate sınıfı (ve tüm diğer Java 8 tarih-zaman sınıfları) geçerlilik kontrolü yapar. Bu sınıflar geçerli olmayan
@@ -735,6 +739,7 @@ class App {
     }
 }
 ```
+### LocalDate sınıfının now iismli static metodu sistemin tarih bilgisini elde etmekte kullanılır
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     LocalDate sınıfının now iismli static metodu sistemin tarih bilgisini elde etmekte kullanılır
@@ -755,6 +760,7 @@ class App {
     }
 }
 ```
+### LocalDate sınıfının isAfter ve isBefore metotları
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     LocalDate sınıfının isAfter ve isBefore metotları
@@ -777,6 +783,7 @@ class App {
     }
 }
 ```
+### ChronoUnit enum sınıfı ile tarih-zaman ölçümleri yapılabilir
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     ChronoUnit enum sınıfı ile tarih-zaman ölçümleri yapılabilir
@@ -801,6 +808,7 @@ class App {
     }
 }
 ```
+### Sınıf Çalışması: Doğum günü kutlaması (2)
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     Sınıf Çalışması: Klavyeden alınan gün, ay ve yıl bilgilerine göre kişinin doğum günü geçmişse
@@ -908,6 +916,7 @@ class BirthDateInfo {
     }
 }
 ```
+### LocalDate sıfınının plusXXX metotları
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     LocalDate sıfınının plusXXX metotları
@@ -929,6 +938,7 @@ class App {
     }
 }
 ```
+### LocalDate sıfınının metotları ile zincir çağırma yapılabilir
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     LocalDate sıfınının metotları ile zincir çağırma yapılabilir
@@ -950,6 +960,7 @@ class App {
     }
 }
 ```
+### LocalTime sınıfının atDate metodu
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     LocalTime sınıfının atDate metodu
@@ -972,6 +983,7 @@ class App {
     }
 }
 ```
+### LocalDate sınıfının atTime metodu
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     LocalDate sınıfının atTime metodu
@@ -995,6 +1007,7 @@ class App {
     }
 }
 ```
+### Sınıf Çalışması
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     Sınıf Çalışması: 17.08.1999 tarihinde 03:02:00 zamanında gerçekleşmiş olan büyük depremden bu zamana kadar geçen
@@ -1036,6 +1049,7 @@ public final class BigEarthquakeRemainderApp {
     }
 }
 ```
+###  LocalDateTime sınıfının toLocalDate ve toLocalTime sınıfları
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     LocalDateTime sınıfının toLocalDate ve toLocalTime sınıfları
@@ -1059,6 +1073,7 @@ class App {
     }
 }
 ```
+### DateTimeUtil sınıfı ve test kodu
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     DateTimeUtil sınıfı ve test kodu
@@ -1131,6 +1146,7 @@ public final class DateTimeUtil {
     }
 }
 ```
+### Java'da içiçe tür bildirimleri (nested types):
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     Java'da içiçe tür bildirimleri (nested types):
@@ -1145,11 +1161,13 @@ public final class DateTimeUtil {
     yapılabilmesini sağlayan "Lambda ifadeleri ve metot referansları" konusu ileride detaylı olarak ele alınacaktır
 ----------------------------------------------------------------------------------------------------------------------*/
 ```
+### Hiç bir tür içerisinde bulunmayan bir sınıfa "top-level class" denir
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     Hiç bir tür içerisinde bulunmayan bir sınıfa "top-level class" denir
 ----------------------------------------------------------------------------------------------------------------------*/
 ```
+### Top-level class'lar static olarak bildirilemez
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     Top-level class'lar static olarak bildirilemez
@@ -1159,6 +1177,7 @@ static class Sample { //error
 }
 
 ```
+### Bir sınıf içerisinde başka bir sınıf static olarak bildirilebilir.
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     Bir sınıf içerisinde başka bir sınıf static olarak bildirilebilir. Bu durumda içteki sınıf dıştaki sınıfın bir
@@ -1186,6 +1205,7 @@ class A {
     }
 }
 ```
+### static sınıfların da elemanları olabilir.
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     static sınıfların da elemanları olabilir. static bir sınıfa sınıf dışından onu kapsayan sınıf ismi ve nokta
@@ -1222,6 +1242,7 @@ class A {
 
 }
 ```
+###  static sınıflar static elemanlar olduğundan import static bildirimi ile isimleri doğrudan kullanılabilir.
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     static sınıflar static elemanlar olduğundan import static bildirimi ile isimleri doğrudan kullanılabilir.
@@ -1258,6 +1279,7 @@ class A {
     }
 }
 ```
+### Kapsayan sınıfta static sınıfın elemanlarına erişilebilir
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     Kapsayan sınıfta static sınıfın elemanlarına erişilebilir
@@ -1299,6 +1321,7 @@ class A {
     }
 }
 ```
+###  Kapsayan sınıfta static sınıfın private elemanlarına da erişilebilir
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     Kapsayan sınıfta static sınıfın private elemanlarına da erişilebilir
@@ -1340,6 +1363,7 @@ class A {
     }
 }
 ```
+### static sınıf kapsayan sınıfın private elemanlarına erişebilir
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     static sınıf kapsayan sınıfın private elemanlarına erişebilir
@@ -1385,6 +1409,7 @@ class A {
     }
 }
 ```
+### Aşağıdaki durumda B sınıfının foo metodu kendisini çağırdığından exception oluşur
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     Aşağıdaki durumda B sınıfının foo metodu kendisini çağırdığından exception oluşur
@@ -1415,6 +1440,7 @@ class A {
     }
 }
 ```
+### Yukarıdaki problem aşağıdaki gibi çözülebilir
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     Yukarıdaki problem aşağıdaki gibi çözülebilir
@@ -1445,6 +1471,7 @@ class A {
     }
 }
 ```
+### Aşağıdaki bar çağrısı doğrudan yapılmıştır.
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     Aşağıdaki bar çağrısı doğrudan yapılmıştır. Bu durumda bar ismi B sınıfında bulunmadığından onu kapsayan A sınıfına
@@ -1476,6 +1503,7 @@ class A {
     }
 }
 ```
+### Android programalamada kullanılan meşhur R sınıfı
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     Android programalamada kullanılan meşhur R sınıfı, içerisinde static bildirilmiş sınıflar olacak şekilde
@@ -1545,6 +1573,7 @@ class R {
     //...
 }
 ```
+### Bir sınıf içerisinde non-static bildirilmiş bir sınıf olabilir (inner class)
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     Bir sınıf içerisinde non-static bildirilmiş bir sınıf olabilir (inner class)
@@ -1557,6 +1586,7 @@ class A {
     }
 }
 ```
+###  inner class'ın static elemanları olamaz
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     inner class'ın static elemanları olamaz
@@ -1571,6 +1601,7 @@ class A {
     }
 }
 ```
+###  inner class türünden bir nesne kapsadığı sınıf dışında referans.new sentaksı ile yaratılabilir.
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     inner class türünden bir nesne kapsadığı sınıf dışında <referans>.new sentaksı ile yaratılabilir. Yani bir inner class
@@ -1602,6 +1633,7 @@ class A {
     }
 }
 ```
+### non-static bildirilmiş bir sınıf içerisinde o nesnenin ilişkin olduğu kapsayan sınıf nesnesinin non-static veri elemanlarına doğrudan erişilebilir
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     non-static bildirilmiş bir sınıf içerisinde o nesnenin ilişkin olduğu kapsayan sınıf nesnesinin non-static veri
@@ -1640,6 +1672,7 @@ class A {
     }
 }
 ```
+### Anahtar Notlar: static ve non-static sınıflar için derleyici ürettiği arakod isimlendirmesinde kapsayan sınıf ismini de dahil eder.
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     Anahtar Notlar: static ve non-static sınıflar için derleyici ürettiği arakod isimlendirmesinde kapsayan sınıf
@@ -1653,6 +1686,7 @@ class A {
     bildirimi için B ister static ister non-static olsun, B'nin byte kodu A$B.class dosyası biçiminde yaratılır
 ----------------------------------------------------------------------------------------------------------------------*/
 ```
+###  inner class içerisinde A nın static metotları da doğrudan çağrılabilir
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     inner class içerisinde A nın static metotları da doğrudan çağrılabilir
@@ -1683,6 +1717,7 @@ class A {
     }
 }
 ```
+### Aşağıdaki örnekte B'nin foo metodu içerisinde kendisini çağırmaması için A sınıfının foo metodu çağrısında sınıf ismi kullanılmıştır
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     Aşağıdaki örnekte B'nin foo metodu içerisinde kendisini çağırmaması için A sınıfının foo metodu
@@ -1714,6 +1749,7 @@ class A {
     }
 }
 ```
+### Tekrar: "non-static bir metoda metodu çağırmakta kullanılan referans gizlice geçirilir"
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     Tekrar: Arakod düzeyinde non-stati metot kavramı doğrudan yoktur. Tüm metotlar static metotlara dönüştürülür.
@@ -1755,6 +1791,7 @@ class Sample {
     }
 }
 ```
+### Tekrar: İşte yukarıda belirtilen gizlice geçirilen adrese non-static metot içerisinde this referansı ile erişilebilir
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     Tekrar: İşte yukarıda belirtilen gizlice geçirilen adrese non-static metot içerisinde this referansı ile
@@ -1785,6 +1822,7 @@ class Sample {
     }
 }
 ```
+### Tekrar: this referansını okunabilirliği bozmamak kaydıyla non-static metot çağrılarında kullanılmalıdır.
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     Tekrar: this referansını okunabilirliği bozmamak kaydıyla non-static metot çağrılarında kullanılmalıdır. Bu durumda
@@ -1821,6 +1859,7 @@ class Sample {
     }
 }
 ```
+### Tekrar: Aşağıdaki durumda this referansı kullanımı zorunludur
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     Tekrar: Aşağıdaki durumda this referansı kullanımı zorunludur
@@ -1848,6 +1887,7 @@ class Point {
     }
 }
 ```
+### Aşağıdaki örnekte foo metodunun içerisinde this referansı B sınıfı türünden olduğundan error oluşur
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     Aşağıdaki örnekte foo metodunun içerisinde this referansı B sınıfı türünden olduğundan error oluşur
@@ -1877,6 +1917,7 @@ class A {
     }
 }
 ```
+###  Yukarıdaki durumdan dolayı aşağıdaki çağırmada exception oluşur (StackOverflowException)
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     Yukarıdaki durumdan dolayı aşağıdaki çağırmada exception oluşur (StackOverflowException)
@@ -1909,6 +1950,7 @@ class A {
     }
 }
 ```
+### this expression'ın genel biçimi
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     this expression'ın genel biçimi
@@ -1948,6 +1990,7 @@ class A {
     }
 }
 ```
+###  Aşağıdaki örnekte makeText metoduna foo içerisinde ilgili B nesnesinin yaratılmasında kullanılan A nesnesinin referansının geçirilmesi gerektiğinden this expression kullanılmalıdır
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     Aşağıdaki örnekte makeText metoduna foo içerisinde ilgili B nesnesinin yaratılmasında kullanılan A nesnesinin
@@ -1979,6 +2022,7 @@ class A {
     }
 }
 ```
+### Aşağıdaki örnekte bellek sızıntısı (memory leak) oluşur.
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     Aşağıdaki örnekte bellek sızıntısı (memory leak) oluşur. İleride böyle bir senaryoda bellek sızıntısı durumunun
