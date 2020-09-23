@@ -1,3 +1,4 @@
+### Aşağıdaki örnekte immutable olmayan IntValue sınıfı zincir çağırmaya uygun olarak yazılmıştır.
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     Tekrar: Aşağıdaki örnekte immutable olmayan IntValue sınıfı zincir çağırmaya uygun olarak yazılmıştır.
@@ -84,6 +85,7 @@ class IntValue {
     }
 }
 ```
+###  Aşağıdaki örnekte alartDailog nesnesinin yaratılması onun içerisinde bulunan Builder isimli bir sınıf kullanılarak yapılmıştır.
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     Aşağıdaki örnekte alartDailog nesnesinin yaratılması onun içerisinde bulunan Builder isimli bir sınıf kullanılarak
@@ -187,6 +189,7 @@ class AlertDialog {
     }
 }
 ```
+### enum içerisinde non-static sınıf bildirimi geçerlidir
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     enum içerisinde non-static sınıf bildirimi geçerlidir
@@ -209,6 +212,7 @@ enum Sample {
     }
 }
 ```
+### enum içerisinde static sınıf bildirimi geçerlidir
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     enum içerisinde static sınıf bildirimi geçerlidir
@@ -231,6 +235,7 @@ enum Sample {
     }
 }
 ```
+### Sınıf içerisine non-static enum bildirimi yapılabilir
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     Sınıf içerisine non-static enum bildirimi yapılabilir
@@ -260,6 +265,7 @@ class Sample {
 
 }
 ```
+### Sınıf içerisinde enum bildirimlerinin static veya non-static olmasının bir farklı yoktur.
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     Sınıf içerisinde enum bildirimlerinin static veya non-static olmasının bir farklı yoktur. Çünkü
@@ -289,6 +295,7 @@ class Sample {
     }
 }
 ```
+### Aşağıdaki örnekte Figther sınıfına int türden yeni bir yetenek eklendiğinde sumOfAbilities ve averageOfAbilities metotları da değiştirilmek zorundadır.
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     Aşağıdaki örnekte Figther sınıfına int türden yeni bir yetenek eklendiğinde sumOfAbilities ve averageOfAbilities
@@ -375,6 +382,7 @@ class Fighter {
     }
 }
 ```
+### Problem: Aşağıdaki sınıfa yeni bir yetenek eklendiğinde sumOfAbilities ve averageOfAbilities metotlarını değiştirmek zorunda kalmayacak şekilde sınıfı yeniden yazınız.
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     Problem: Aşağıdaki sınıfa yeni bir yetenek eklendiğinde sumOfAbilities ve averageOfAbilities metotlarını
@@ -474,6 +482,7 @@ class Fighter {
     }
 }
 ```
+### Problem: Aşağıdaki sınıfa yeni bir yetenek eklendiğinde sumOfAbilities ve averageOfAbilities metotlarını değiştirmek zorunda kalmayacak şekilde sınıfı yeniden yazınız.
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     Problem: Aşağıdaki sınıfa yeni bir yetenek eklendiğinde sumOfAbilities ve averageOfAbilities metotlarını
@@ -573,6 +582,7 @@ class Fighter {
     }
 }
 ```
+### Problem: Aşağıdaki sınıfa yeni bir yetenek eklendiğinde sumOfAbilities ve averageOfAbilities metotlarını değiştirmek zorunda kalmayacak şekilde sınıfı yeniden yazınız.
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     Problem: Aşağıdaki sınıfa yeni bir yetenek eklendiğinde sumOfAbilities ve averageOfAbilities metotlarını
@@ -691,6 +701,7 @@ class Fighter {
     }
 }
 ```
+### Yerel sınıflar (local classes)
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     Bir metot içerisinde bildirilen sınıflara yerel sınıflar (local classes) denir. Farklı metotlar içerisinde
@@ -752,6 +763,7 @@ class Sample {
     }
 }
 ```
+### Yerel sınıf isimleri faaliyet alanı bakımından yerel değişkenler ile aynıdır
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     Yerel sınıf isimleri faaliyet alanı bakımından yerel değişkenler ile aynıdır
@@ -786,6 +798,7 @@ class Sample {
     }
 }
 ```
+### Aynı faaliyet alanı içerisinde aynı isimde yerel sınıf bildirimi geçersizdir
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     Aynı faaliyet alanı içerisinde aynı isimde yerel sınıf bildirimi geçersizdir
@@ -824,6 +837,7 @@ class Sample {
     }
 }
 ```
+### Yerel sınıflar herhangi bir blok içerisinde bildirilebilir
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     Yerel sınıflar herhangi bir blok içerisinde bildirilebilir
@@ -858,6 +872,7 @@ class Sample {
     }
 }
 ```
+### Yerel sınıfların erişim belirleyicisi olamaz
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     Yerel sınıfların erişim belirleyicisi olamaz
@@ -892,6 +907,7 @@ class Sample {
     }
 }
 ```
+### Yerel sınıflar static olarak bildirilemez
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     Yerel sınıflar static olarak bildirilemez
@@ -925,6 +941,7 @@ class Sample {
     }
 }
 ```
+### non-static, static ve yerel sınıflar başka bir sınıftan türetilebilir
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     non-static, static ve yerel sınıflar başka bir sınıftan türetilebilir
@@ -960,6 +977,7 @@ class Sample {
     }
 }
 ```
+### erel bir sınıf başka bir yerel sınıftan türetilebilir. Şüphesiz taban sınıfın türemiş sınıfın bildirildiği yerde görülebilir olması gerekir
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     Yerel bir sınıf başka bir yerel sınıftan türetilebilir. Şüphesiz taban sınıfın türemiş sınıfın bildirildiği
@@ -989,6 +1007,7 @@ class Sample {
     }
 }
 ```
+### Yerel bir sınıf içerisinde kendisinden önce bildirilen yerel değişkenler ve parametre değişkenleri kullanılabilir (capture)
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     Yerel bir sınıf içerisinde kendisinden önce bildirilen yerel değişkenler ve parametre değişkenleri kullanılabilir
@@ -1025,6 +1044,7 @@ class Sample {
     }
 }
 ```
+### Yerel bir sınıf içerisinde kendisinden önce bildirilen yerel değişkenler ve parametre değişkenleri kullanılabilir (capture)
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     Yerel bir sınıf içerisinde kendisinden önce bildirilen yerel değişkenler ve parametre değişkenleri kullanılabilir
@@ -1073,8 +1093,8 @@ class Sample {
     }
 }
 ```
+### yerel ya da parametre değişkeni ya yakalandığında değiştirilemez, ya da değiştirilse yakalanamaz
 ```java
-
 /*----------------------------------------------------------------------------------------------------------------------
     Yerel sınıflar içerisinde yakalanan yerel veya parametre değişkenleri faaliyet alanı içerisinde tek bir değer
     alabilirler. Yani yakalanmış değişkenlerin değerleri faaliyet alanları içerisinde hiçbiryerde değiştirilemez.
@@ -1123,6 +1143,7 @@ class Sample {
     }
 }
 ```
+### Yerel sınıflar içerisinde (anonim sınıflar ve lambda ifadelerinde de) sınıf veri elemanları yakalanablir ve değiştirilebilir!
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     Yerel sınıflar içerisinde (anonim sınıflar ve lambda ifadelerinde de) sınıf veri elemanları yakalanablir ve
@@ -1163,6 +1184,7 @@ class Sample {
     }
 }
 ```
+### Yerel sınıflar içerisinde (anonim sınıflar ve lambda ifadelerinde de) sınıf veri elemanları yakalanablir ve değiştirilebilir
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     Yerel sınıflar içerisinde (anonim sınıflar ve lambda ifadelerinde de) sınıf veri elemanları yakalanablir ve
@@ -1205,6 +1227,7 @@ class Sample {
     }
 }
 ```
+### Yerel sınıflar aşağıdaki gibi basit testlerde kullanılabilir. 
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     Yerel sınıflar aşağıdaki gibi basit testlerde kullanılabilir. Şüphesiz aşağıdaki testi daha iyi yapabilecek araçlar
@@ -1270,6 +1293,7 @@ class Sample {
     }
 }
 ```
+### Yerel sınıflar aşağıdaki gibi basit testlerde kullanılabilir.
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     Yerel sınıflar aşağıdaki gibi basit testlerde kullanılabilir. Şüphesiz aşağıdaki testi daha iyi yapabilecek araçlar
