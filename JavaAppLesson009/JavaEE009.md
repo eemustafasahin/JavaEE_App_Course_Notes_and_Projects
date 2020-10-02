@@ -1,3 +1,4 @@
+###  Anonim sınıflar: Bu sınıflar bildirimleri sırasında programcının isimlendirmediği sınıflardır. 
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     Anonim sınıflar: Bu sınıflar bildirimleri sırasında programcının isimlendirmediği sınıflardır.
@@ -14,6 +15,7 @@
     taban sınıf türünden (veya interface) bir referansa atanmalıdır
 ----------------------------------------------------------------------------------------------------------------------*/
 ```
+### Aşağıdaki örnekte iki farklı anonim sınıf bildirimi yapılmıştır
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     Aşağıdaki örnekte iki farklı anonim sınıf bildirimi yapılmıştır
@@ -35,6 +37,7 @@ class Sample {
     //...
 }
 ```
+### Aşağıdaki örnekte iki farklı anonim sınıf bildirimi yapılmıştır. Ekran çıktılarını inceleyiniz
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     Aşağıdaki örnekte iki farklı anonim sınıf bildirimi yapılmıştır. Ekran çıktılarını inceleyiniz
@@ -58,6 +61,7 @@ class Sample {
     //...
 }
 ```
+### final olarak bildirilmiş sınıflar türetme işlemine kapalı olduğundan anonim sınıf bildirimi de yapılamaz
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     final olarak bildirilmiş sınıflar türetme işlemine kapaıl olduğundan anonim sınıf bildirimi de
@@ -77,6 +81,7 @@ final class Sample {
     //...
 }
 ```
+### Anonim sınıf bildiriminde taban sınıfın non-static olan ve final olarak bildirilmemiş bir metodu override edilebilir
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     Anonim sınıf bildiriminde taban sınıfın non-static olan ve final olarak bildirilmemiş bir metodu
@@ -106,6 +111,7 @@ class Sample {
     }
 }
 ```
+### referans sayacı algoritması ve garbage collected ilişkisi
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     Aşağıdaki örnekte Sample türünden bir referans dolaylı da olsa Mample sınıfına bağlandığından referans sayacı
@@ -181,6 +187,7 @@ class Sample {
     }
 }
 ```
+### Aşağıdaki örnekte anonim sınıf nesneleri Mample sınıfına bağlanmıştır
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     Aşağıdaki örnekte anonim sınıf nesneleri Mample sınıfına bağlanmıştır
@@ -219,6 +226,7 @@ class Sample {
     }
 }
 ```
+### Aşağıdaki örnekte Sample sınıfı static sınıf haline getirilip yalnızca içeride kullanılacak durumdadır
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     Aşağıdaki örnekte Sample sınıfı static sınıf haline getirilip yalnızca içeride kullanılacak durumdadır
@@ -278,6 +286,7 @@ class Mample {
     //...
 }
 ```
+### Yukarıdaki örneğin Sample ve Mample sınıflarının ayrılmış biçimi
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     Yukarıdaki örneğin Sample ve Mample sınıflarının ayrılmış biçimi
@@ -345,8 +354,8 @@ public class Mample {
     }
 }
 ```
+### Aşağıdaki masum örnekte bellek sızıntısına dikkat ediniz
 ```java
-
 /*----------------------------------------------------------------------------------------------------------------------
     Aşağıdaki masum örnekte bellek sızıntısına dikkat ediniz
 ----------------------------------------------------------------------------------------------------------------------*/
@@ -371,6 +380,7 @@ class Sample {
     //...
 }
 ```
+### Anonim sınıflar içerisinde kendisinden önce bildirilen yerel ve parametre değişkenleri kullanılabilir (capture)
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     Anonim sınıflar içerisinde kendisinden önce bildirilen yerel ve parametre değişkenleri kullanılabilir (capture)
@@ -408,6 +418,7 @@ class Sample {
     }
 }
 ```
+### Anonim sınıflar içerisinde içerisinde bildirildikleri metodun ait olduğu sınıfın veri elemanlarına doğrudan erişilebilir. 
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     Anonim sınıflar içerisinde içerisinde bildirildikleri metodun ait olduğu sınıfın veri elemanlarına doğrudan
@@ -452,6 +463,7 @@ class Sample {
     }
 }
 ```
+### Timer sınıfı timer periyodik işlerin yapılmasında kullanılan temel sınıflardan biridir.
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     Timer sınıfı timer periyodik işlerin yapılmasında kullanılan temel sınıflardan biridir. Bu sınıfın scheduleXXX
@@ -481,6 +493,7 @@ class App {
     }
 }
 ```
+### scheduleXXX metotlarının delay parametresi ile timer istenilen zamanda başlatılabilir
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     scheduleXXX metotlarının delay parametresi ile timer istenilen zamanda başlatılabilir
@@ -509,6 +522,7 @@ class App {
 }
 
 ```
+### scheduleXXX metotlarının Date paramtreli versiyonları
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     scheduleXXX metotlarının Date paramtreli versiyonları
@@ -541,6 +555,7 @@ class App {
     }
 }
 ```
+### Timer sınıfı
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     Timer sınıfı
@@ -569,6 +584,7 @@ class App {
     }
 }
 ```
+###  Timer sınıfı ile basit bir dijital saat uygulaması:
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     Timer sınıfı ile basit bir dijital saat uygulaması: Kodu işletim sisteminin komut yorumlayıcısı ile
@@ -606,6 +622,7 @@ class SampleDigitalClock {
     }
 }
 ```
+### Anonim sınıf içerisinde veri elemanı bildirimi veya metot bildirimi yapılabilir. 
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     Anonim sınıf içerisinde veri elemanı bildirimi veya metot bildirimi yapılabilir. Şüphesiz bu bildirilen metotlara
@@ -642,8 +659,8 @@ class Sample {
     {}
 }
 ```
+### Timer sınıfının cancel metodu timer durdurulabilir
 ```java
-
 /*----------------------------------------------------------------------------------------------------------------------
     Timer sınıfının cancel metodu timer durdurulabilir
 ----------------------------------------------------------------------------------------------------------------------*/
@@ -677,6 +694,7 @@ class App {
     }
 }
 ```
+### Timer sınıfının cancel metodu timer durdurulabilir
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     Timer sınıfının cancel metodu timer durdurulabilir
@@ -709,6 +727,7 @@ class App {
     }
 }
 ```
+### Sınıf Çalışması: Alarm uygulaması
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     Sınıf Çalışması: Klavyeden girilen saat ve dakika bilgisine göre o zaman geldiğinde ekrana "Artık uyan"
@@ -760,6 +779,7 @@ public class AlarmWithoutSecondApp {
     }
 }
 ```
+### Alarm sınıfı
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     Alarm sınıfı
@@ -809,6 +829,7 @@ public class Alarm {
     }
 }
 ```
+###  AlarmTask sınıfı
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     AlarmTask sınıfı
@@ -823,6 +844,7 @@ public class AlarmTask {
     //...
 }
 ```
+### TimeUnit enum sınıfı ile zamana ilişkin birim dönüşümleri yapılabilir
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     TimeUnit enum sınıfı ile zamana ilişkin birim dönüşümleri yapılabilir
@@ -855,6 +877,7 @@ class App {
     }
 }
 ```
+### ScheduleUtil sınıfı ve test kodu
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     ScheduleUtil sınıfı ve test kodu
@@ -882,6 +905,7 @@ class App {
     }
 }
 ```
+### ScheduleUtil sınıfı
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     ScheduleUtil sınıfı
@@ -907,6 +931,7 @@ public class ScheduleUtil {
     }
 }
 ```
+### Anonim sınıf nesneleri yaratılırken kullanılan ctor ile super ctor sentaksı kullanılmış olur.
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     Anonim sınıf nesneleri yaratılırken kullanılan ctor ile super ctor sentaksı kullanılmış olur. Yani aşağıdaki
@@ -940,6 +965,7 @@ class Sample {
     //...
 }
 ```
+### Sınıf Çalışması: Aşağıda açıklanan Scheduler isimli sınıfı yazınız.
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     Sınıf Çalışması: Aşağıda açıklanan Scheduler isimli sınıfı yazınız.
@@ -1012,6 +1038,7 @@ class App {
     }
 }
 ```
+### Scheduler sınıfı
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     Scheduler sınıfı
@@ -1071,6 +1098,7 @@ public final class Scheduler {
     }
 }
 ```
+###  Sınıf Çalışması: Aşağıda açıklanan sınıfı yazınız:
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     Sınıf Çalışması: Aşağıda açıklanan sınıfı yazınız:
@@ -1187,6 +1215,7 @@ class MyCountDownScheduler extends CountDownScheduler {
     }
 }
 ```
+### CountDownScheduler sınıfı
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     CountDownScheduler sınıfı
@@ -1251,6 +1280,7 @@ public abstract class CountDownScheduler {
 }
 
 ```
+### Sınıf Çalışması: CountDownSchedulerEx sınıfını yazınız
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     Sınıf Çalışması: CountDownScheduler sınıfını genişletecek şekilde başlangıçta da bir iş yapılabilmsini sağlayan onStart
@@ -1291,6 +1321,7 @@ class App {
     }
 }
 ```
+### CountDownSchedulerEx sınıfı
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     CountDownSchedulerEx sınıfı
@@ -1319,6 +1350,7 @@ public abstract class CountDownSchedulerEx extends CountDownScheduler {
     public abstract void onStart();
 }
 ```
+### Aşağıdaki örnekte anonim sınıf kullanılarak adeta nesneye ilkdeğer verme biçiminde kod yazılmıştır fakat bu ilk değer verme sentaksı değildir!
 ```java
 /*----------------------------------------------------------------------------------------------------------------------
     Aşağıdaki örnekte anonim sınıf kullanılarak adeta nesneye ilkdeğer verme biçiminde kod yazılmıştır. Bu sentaks
